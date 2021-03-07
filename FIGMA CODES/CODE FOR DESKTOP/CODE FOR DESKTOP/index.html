@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <title>HOME PAGE</title>
+
+</head>
+    <style>
+        nav .badge {
+            position: relative;
+            top: 20px;
+            right: 20px;
+        }
+    </style>
+<body>
+
+    <nav class="nav-wrapper blue darken-3">
+        <div class="container">
+            <a href="#" class="brand-logo"><img src="new logo.jpg" alt="logo" height="60" width="200"></a>
+            <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="#" class="btn-floating blue darken-4 z-depth-0">
+                        <i class="material-icons">notifications</i>
+                    </a></li>
+                <li><span class="badge white-text red new">2</span></li>
+            </ul>
+    </nav>
+
+    <ul class="sidenav" id="mobile-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+    </ul>
+    <center>
+<h1><p class="blue-text">Science</p></h1></center>
+<h4><p class="blue-text">Branches of Science</p></h4>
+    <!-- Modal Trigger -->
+    <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Physics</a>
+    
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>Physics</h4>
+            <p> Physics is the branch of science that deals with the structure of matter and how the fundamental constituents of the
+            universe interact. It studies objects ranging from the very small using quantum mechanics to the entire universe using
+            general relativity.</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-blue btn-flat">Close</a>
+        </div>
+    </div>
+    <!-- Modal Trigger 2 -->
+    <a class="waves-effect waves-light btn modal-trigger" href="#modal2">Biology</a>
+    
+    <!-- Modal Structure 2 -->
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <h4>Biology</h4>
+            <p>The study of living organisms, divided into many specialized fields that cover their morphology, physiology, anatomy, behavior, origin, and distribution.</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-blue btn-flat">Close</a>
+        </div>
+    </div>
+    <!-- Modal Trigger 3 -->
+    <a class="waves-effect waves-light btn modal-trigger" href="#modal3">Chemistry</a>
+    
+    <!-- Modal Structure 3 -->
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <h4>Chemistry</h4>
+            <p>Chemistry, the science that deals with the properties, composition, and 
+                structure of substances (defined as elements and compounds), the transformations they 
+                undergo, and the energy that is released or absorbed during these processes.</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-blue btn-flat">Close</a>
+        </div>
+    </div>
+     <!-- Modal Trigger 4 -->
+     <a class="waves-effect waves-light btn modal-trigger" href="#modal4">Astronomy</a>
+    
+     <!-- Modal Structure 4 -->
+     <div id="modal4" class="modal">
+         <div class="modal-content">
+             <h4>Astronomy</h4>
+             <p>Astronomy is the study of everything in the universe beyond Earth's atmosphere. 
+                 That includes objects we can see with our naked eyes, like the Sun , the Moon
+                  , the planets, and the stars . It also includes objects we can only see with
+                   telescopes or other instruments, like faraway galaxies and tiny particles.</p>
+         </div>
+         <div class="modal-footer">
+             <a href="#!" class="modal-close waves-effect waves-blue btn-flat">Close</a>
+         </div>
+     </div>
+         <!-- Modal Trigger 5 -->
+         <a class="waves-effect waves-light btn modal-trigger" href="#modal5">Geology</a>
+    
+         <!-- Modal Structure 5 -->
+         <div id="modal5" class="modal">
+             <div class="modal-content">
+                 <h4>Geology</h4>
+                 <p>Geology is the study of the Earth, the materials of which it is made, the
+                      structure of those materials, and the processes acting upon them. It includes
+                       the study of organisms that have inhabited our planet.</p>
+             </div>
+             <div class="modal-footer">
+                 <a href="#!" class="modal-close waves-effect waves-blue btn-flat">Close</a>
+             </div>
+         </div>
+     
+    
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!--Compiled and minifested-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(' .sidenav').sidenav();
+        })
+        
+            document.addEventListener('DOMContentLoaded', function () {
+                var elems = document.querySelectorAll('.modal');
+                var instances = M.Modal.init(elems, options);
+            });
+
+            // Or with jQuery
+
+            $(document).ready(function () {
+                $('.modal').modal();
+            });
+    </script>
+
+</body>
+
+</html>

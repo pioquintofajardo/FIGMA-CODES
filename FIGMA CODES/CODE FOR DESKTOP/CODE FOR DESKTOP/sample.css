@@ -1,0 +1,29 @@
+/* Rectangle 1 */
+.rectangle{
+position: absolute;
+width: 1440px;
+height: 128px;
+left: 0px;
+top: 0px;
+
+background: #4973B1;
+}
+.HOME{
+    /* HOME */
+
+position: absolute;
+width: 99px;
+height: 43px;
+left: 830px;
+top: 48px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+
+
+}

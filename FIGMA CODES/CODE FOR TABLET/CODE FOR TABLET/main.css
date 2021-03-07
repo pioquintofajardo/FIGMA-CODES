@@ -1,0 +1,164 @@
+html *
+{
+   font-family: Helvetica, Arial ;
+}
+
+.carousel .carousel-item>img {
+    width: 110%; 
+    height: 150%;
+}
+
+.main-header {
+    background: url(./img/endgame-bg.png);
+    min-height: 600px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding-bottom: 150px;
+}
+
+.primary-overlay{
+    background: rgba(18, 18, 18, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.loading-overlay{
+    background: rgba(18, 18, 18, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.main-header .showcase .top{
+    padding-top: 20px;
+}
+
+.modal-content {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.sidenav {
+    padding-top: 20px;
+    color: #ffffff;
+    background-color:  #121212;
+}
+
+.active-link {
+    color: #1e88e5;
+    font-weight: bold;
+}
+
+.endgame {
+    background-image:url(img/endgame-bg.png);
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 750px;
+}
+
+.civilwar {
+    background-image:url(img/civilwar-cover.jpg);
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 750px;
+}
+
+.movie-info {
+    min-height: 700px;
+    background-color:#121212;
+}
+
+.infinitywar {
+    background-image:url(img/infinitywar-cover.jpg);
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 750px;
+}
+
+.movie-genre {
+    color: white;
+    position: absolute;
+    bottom: 260px;
+    left: 60px;
+    font-size: 16px;
+}
+
+.movie-header {
+    color: white;
+    position: absolute;
+    bottom: 200px;
+    left: 60px;
+    font-size: 40px;
+}
+
+.watchnow {
+    position: absolute;
+    bottom: 140px;
+    left: 60px; 
+    background-color:#121212;
+    border-top: #1e88e5 solid 2px;
+    border-bottom: #1e88e5 solid 2px;
+    border-left: #1e88e5 solid 2px;
+    border-right: #1e88e5 solid 2px;
+}
+
+.trailer {
+    position: absolute;
+    bottom: 150px;
+    left: 220px; 
+    background-color:#121212;
+    color: #ffffff ;
+}
+
+.btn-extend{
+    display: block;
+    width: 100%;
+}
+
+input, select, textarea{
+    color: #ffffff;
+}
+
+.title-name {
+    position: absolute;
+	top: 100%;
+    left: 5%;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.loader{
+    position: absolute;
+	top: 40%;
+	left: 47%;
+}
+
+.loader-background {
+    background: rgba(18, 18, 18, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.load-bg {
+    position: absolute;
+    bottom: 10%;
+    left: 43%; 
+}
